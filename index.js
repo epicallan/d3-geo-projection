@@ -1,4 +1,5 @@
-var fs = require("fs");
-var path = require("path");
+var d3 = require("d3");
+var geo = require('./d3.geo.projection.min.js');
+geo(d3);
 
-module.exports = new Function("d3", fs.readFileSync(path.join(__dirname, "d3.geo.projection.js"), "utf-8"));
+module.exports = d3;

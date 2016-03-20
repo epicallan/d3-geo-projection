@@ -25,7 +25,7 @@
     "type": "git",
     "url": "https://github.com/d3/d3-geo-projection.git"
   },
-  "main": "d3.geo.projection.min.js",
+  "main": "index.js",
   "devDependencies": {
     "d3": "3",
     "smash": "0.0",

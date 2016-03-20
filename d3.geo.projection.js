@@ -1,5 +1,5 @@
 
-var geo = function(d3) {
+module.exports = function(d3) {
   d3.geo.project = function(object, projection) {
     var stream = projection.stream;
     if (!stream) throw new Error("not yet supported");
